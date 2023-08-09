@@ -16,3 +16,19 @@ a,
 button {
     color: inherit;
 }
+:root {
+    /*Primary*/
+    --darkBlue-intro: hsl(217,28%,15%);
+    --darkBlue-main: hsl(218, 28%, 13%);
+    --darkBlue-testimonials: hsl(216, 53%, 9%);
+    --darkBlue-footer: hsl(219, 30%, 18%);
+
+    /*Accent*/
+    --Cyan: hsl(176, 68%, 64%);
+    --Blue: hsl(198, 60%, 50%);
+    --LightRed-error: hsl(0, 100%, 63%);
+
+    /*Neutral*/
+    --white: hsl(0, 0%, 100%);
+
+}

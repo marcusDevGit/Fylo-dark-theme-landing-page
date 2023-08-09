@@ -1,8 +1,7 @@
 <template>
-  <header class="head">
+  <header>
     <div class="hold">
       <a class="head_logo" href="/"><img src="@/assets/logo.svg" alt="" /></a>
-
       <ul class="head_nav">
         <li class="head_item"><a class="head_link" href="/">Features</a></li>
         <li class="head_item"><a class="head_link" href="/">Team</a></li>
@@ -24,11 +23,11 @@ export default {
   margin: 0 auto;
 }
 
-.head {
+header {
   background-color: #1c2431;
 }
 
-.head .hold {
+header .hold {
   padding: 4rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
