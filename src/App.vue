@@ -7,6 +7,13 @@
     <TestimonSection />
     <AcessSection />
     <FooterSection />
+    <button
+      v-if="showBackToTop"
+      class="back-to-top"
+      @click="scrollToTop"
+    >
+    <ion-icon name="arrow-up-outline"></ion-icon>
+    </button>
   </div>
 </template>
 
@@ -29,17 +36,51 @@ export default {
     TestimonSection,
     AcessSection,
     FooterSection
+  },
+  data() {
+    return {
+      showBackToTop: false
+    };
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },
+    handleScroll() {
+      this.showBackToTop = window.scrollY > 100;
+    }
+  },
+  created() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
 }
-};
 </script>
 
 <style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
+/* ... Seus estilos existentes ... */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: var(--Blue);
+  color: #fff;
+  border: none;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%   ;
+  cursor: pointer;
+}
+
+.back-to-top:hover {
+  background-color: var(--Cyan);
+}
+
+.back-to-top.show {
+  display: block;
+}
 </style>
