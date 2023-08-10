@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import './global.css'; // Importar o arquivo global.css
+
 
 // Importar os componentes
 import HeaderSection from './components/HeaderSection.vue';
@@ -10,7 +12,6 @@ import TestimonSection from './components/TestimonSection.vue';
 import AcessSection from './components/AcessSection.vue';
 import FooterSection from './components/FooterSection.vue';
 
-import './global.css'; // Importar o arquivo global.css
 
 // Criar a instância da aplicação Vue
 const app = createApp(App);
