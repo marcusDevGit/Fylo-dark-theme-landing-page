@@ -1,10 +1,5 @@
 # Fylo dark theme landing page - Frontend Mentor
 
-<h2 align="center"> 
-	🚧  Em construção...  🚧
-</h2>
-
-
 Hi there! Thanks for checking out this project! 👋
 
 This is a solution for a **Frontend Mentor challenge** that consists on building a **landing page** that looks as close to the given design as possible. The goal is to improve my web layout skills by building a realistic project.
@@ -15,13 +10,14 @@ This is a solution for a **Frontend Mentor challenge** that consists on building
   - [1. Table of contents ✒️](#1-table-of-contents-️)
   - [2. Overview 🎯](#2-overview-)
     - [The challenge](#the-challenge)
-    - [How to run the project:](#how-to-run-the-project)
+    - [Screenshot](#screenshot)
     - [Links](#links)
   - [3. My process 🧩](#3-my-process-)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Useful resources](#useful-resources)
-  - [4. Author 🙋🏻](#4-author-)
+  - [4. Project setup](#project-setup)
+    -[Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
+    -[Compiles and minifies for production](#compiles-and-minifies-for-production)
+  - [5. Author 🙋🏻](#5-author-)
 
 ## 2. Overview 🎯
 
@@ -32,9 +28,44 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-![Design preview for the Fylo dark theme landing page challenge](./src/assets/design/desktop-preview.jpg)
+### Screenshots
+
+  <details>
+<summary>Desktop - Home</summary>
+
+![Desktop - Home](./src/assets/design/desktop-design.jpg)
+
+</details>
+
+<details>
+<summary>Desktop - Active</summary>
+
+![Desktop - Sign-up](./src/assets/design/active-states.jpg)
+
+</details>
+
+<details>
+<summary>Mobile</summary>
+
+![Tablet - Home](./src/assets/design/mobile-design.jpg)
+
+</details>
 
 You can checkout the challenge details in the [Frontend Mentor page](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd).
+
+### Links
+
+- Live Site URL: https://marcusdevgit.github.io/Fylo-dark-theme-landing-page/
+
+## 3. My process 🧩
+
+### Built with
+
+- Semantic **HTML5** markup
+- HTML **templating system**
+- **CSS3** custom properties
+- **Responsive design** with **mobile-first** workflow
+- **VUE.JS**
 
 ## Project setup
 ```
@@ -51,10 +82,9 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 4. Author 🙋🏻
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- LinkedIn: [Marcus Phellypp Silva Costa](https://www.linkedin.com/in/marcus25-dev/)
+- GitHub: [marcusDevGit](https://github.com/marcusDevGit)
+- Email: marcus_psc@hotmail.com
+- Frontend Mentor: [@marcusDevGit](https://www.frontendmentor.io/profile/marcusDevGit)
