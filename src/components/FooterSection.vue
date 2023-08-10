@@ -34,7 +34,7 @@
 
         <div class="footer_links">
           <a class="footer_link" href="/">Contact Us</a>
-          <a class="footer_link" href="/">Terms</a>
+          <a class="footer_link" href="#team">Terms</a>
           <a class="footer_link" href="/">Privacy</a>
         </div>
 
@@ -50,8 +50,9 @@
   
 <script>
 export default {
-  name: 'FooterSection'
+  name: 'FooterSection',
 }
+
 </script>
   
 <style scoped>
@@ -153,11 +154,18 @@ footer .hold {
   filter: brightness(10);
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
   .footer_btn {
     -ms-grid-rows: (auto) 3;
     -ms-grid-columns: (1fr) 2;
     grid-template: repeat(3, auto)/repeat(2, 1fr);
+  }
+  .footer_medias {
+    grid-column: span 2;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
   }
 }
 
@@ -182,5 +190,6 @@ footer .hold {
   .footer_medias {
     grid-column: span 1;
   }
-}</style>
+}
+</style>
   

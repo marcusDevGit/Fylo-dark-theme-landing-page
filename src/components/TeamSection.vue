@@ -1,5 +1,5 @@
 <template>
-    <section class="team">
+    <section id="team" class="team">
       <div class="hold">
         <img class="team_img" src="@/assets/illustration-stay-productive.png" alt="" />
   

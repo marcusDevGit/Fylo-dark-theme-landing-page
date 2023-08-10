@@ -3,9 +3,9 @@
     <div class="hold">
       <a class="head_logo" href="/"><img src="@/assets/logo.svg" alt="" /></a>
       <ul class="head_nav">
-        <li class="head_item"><a class="head_link" href="/">Features</a></li>
-        <li class="head_item"><a class="head_link" href="/">Team</a></li>
-        <li class="head_item"><a class="head_link" href="/">Sign In</a></li>
+        <li class="head_item"><a class="head_link" href="#features">Features</a></li>
+        <li class="head_item"><a class="head_link" href="#team">Team</a></li>
+        <li class="head_item"><a class="head_link" href="#access">Sign In</a></li>
       </ul>
     </div>
   </header>

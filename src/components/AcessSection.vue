@@ -1,5 +1,5 @@
 <template>
-    <section class="access">
+    <section id="access" class="access">
       <div class="hold">
         <h1 class="access_title">Get early access today</h1>
         <p class="access_description">

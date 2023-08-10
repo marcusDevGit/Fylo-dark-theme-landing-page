@@ -1,5 +1,5 @@
 <template>
-    <section class="feature">
+    <section id="features" class="feature">
       <div class="hold">
         <article class="feature_card">
           <img class="feature_img" src="@/assets/icon-access-anywhere.svg" alt="" />
@@ -81,8 +81,8 @@
 }
 
 .feature_description {
-  max-width: 42ch;
-  margin-top: 0.5em;
+  max-width: 42rem;
+  margin-top: 0.5rem;
   opacity: 0.75;
 }
 
