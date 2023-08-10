@@ -15,8 +15,8 @@ This is a solution for a **Frontend Mentor challenge** that consists on building
   - [3. My process 🧩](#3-my-process-)
     - [Built with](#built-with)
   - [4. Project setup](#project-setup-)
-    -[Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
-    -[Compiles and minifies for production](#compiles-and-minifies-for-production)
+    - [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
+    - [Compiles and minifies for production](#compiles-and-minifies-for-production)
   - [5. Author 🙋🏻](#5-author-)
 
 ## 2. Overview 🎯
